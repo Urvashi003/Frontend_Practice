@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+        *{
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        .container{ 
+
+            width:100vw;
+            height:100vh;
+            background-color:rgba(57, 195, 195, 0.595);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }  
+
+        .card{ 
+            width:700px;
+            height:450px;
+            background-color: azure;
+            display: flex;
+            flex-direction: row;
+             justify-content: space-between; 
+            
+        } 
+
+         #rightbox img{ 
+
+            width:350px;
+            height:450px;
+        } 
+
+        #leftbox{ 
+            gap:50px;
+            background-color: purple;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 50px;
+            color: white;
+
+        }
+
+        /* #leftbox h2{ 
+            color:white;
+
+        } 
+
+        #leftbox p{ 
+            color: white;
+        }  */
+
+        #box{ 
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            gap:25px;
+        }  
+
+       
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div id="leftbox">
+
+                <h2>Get insights that help your buisness grow</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis iure repudiandae voluptatum fugiat neque magni optio minima earum similique sapiente, maxime cupiditate illum suscipit.</p>
+               <div id="box">
+                <div id="box1">
+                    <h2>10k+</h2>
+                    <p>Comments</p>
+                </div>
+                <div id="box2">
+                    <h2>214</h2>
+                    <p>paid users</p>
+                </div>
+                <div id="box3">
+                    <h2>12M+</h2>
+                    <p>views</p>
+                </div>
+
+               </div>
+            </div>
+            <div id="rightbox">
+                <img src="card2.jpeg">
+
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>

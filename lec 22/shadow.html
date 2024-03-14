@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style> 
+     :root{ 
+        --primary-color:black;
+        --custom-width:330px;
+     }
+        .container{ 
+            background-color: beige;
+            height:650px;
+            border:2px solid var(--primary-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } 
+
+        .box{ 
+            background-color: aquamarine;
+            width:var(--custom-width);
+            height:330px;
+            border:1px solid brown;
+            margin:5px;
+            padding: 5px;
+            /*box-shadow: -10px 15px brown;*/
+            /*box-shadow: 10px 15px 50px brown;*/
+            /*box-shadow: 10px 15px 5px 90px brown;*/
+            /*box-shadow: 10px 15px 5px 30px rgba(10, 30, 40, 1);*/
+            /*box-shadow: inset 10px 15px yellowgreen;*/
+            /* box-shadow: 10px 15px red, 15px 8px yellowgreen; */
+        }    
+
+        #head1{ 
+             /* text-shadow: 2px 3px white; */
+             /* text-shadow: rgb(101, 40, 20) 3px 1px 5px; */
+             /* text-shadow: 12px 13px; */
+
+             text-shadow: 2px 2px red, 2px 2px yellow, 2px 2px green;
+        }
+    </style>
+</head>
+<body> 
+    <div class="container">
+    <div class="box">
+        <img src="logo.svg"/>
+        <h2 id="head1">GREECE URVASHI AA GYIII</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae reiciendis molestias quas corporis quam sequi tempore eligendi alias non aut vero quis numquam velit quisquam doloribus laborum sint odit nobis explicabo libero possimus dignissimos, cupiditate quidem vel. Eos, praesentium possimus?</p>
+    </div>
+</body>
+</html>
